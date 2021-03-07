@@ -41,7 +41,7 @@ public class HelloController {
     }
 
     static class Hello {
-        //private이기 때문에 method를 통해 접근
+        //private 이기 때문에 method를 통해 접근
         private String name;
 
         public String getName() {
