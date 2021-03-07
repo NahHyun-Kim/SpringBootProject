@@ -1,0 +1,12 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Hello</title>
+</head>
+<body>
+<!--템플릿 엔진을 통해 아래 값으로 치환됨, 서버 없이 돌릴 때는 p태그 사잇값 실행-->
+<p th:text="'안녕하세요. ' + ${name}">Hello! empty</p>
+</body>
+</html>
