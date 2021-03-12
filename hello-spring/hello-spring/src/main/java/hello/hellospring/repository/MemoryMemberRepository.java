@@ -1,9 +1,12 @@
 package hello.hellospring.repository;
 
 import hello.hellospring.domain.Member;
+import org.springframework.stereotype.Repository;
 
 import java.util.*;
 
+// @Repository
+// @Autowired, Component 스캔 방식 외에 직접 springconfig 파일을 통해 스프링 빈 등록이 가능하다.
 public class MemoryMemberRepository implements MemberRepository {
 
     private static Map<Long, Member> store = new HashMap<>();

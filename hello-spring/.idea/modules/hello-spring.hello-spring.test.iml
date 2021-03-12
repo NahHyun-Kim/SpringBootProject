@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module external.system.module.type="sourceSet" type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_11">
+  <component name="NewModuleRootManager">
     <output-test url="file://$MODULE_DIR$/../../hello-spring/out/test/classes" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../hello-spring/src/test">
@@ -11,6 +11,7 @@
     <orderEntry type="module" module-name="hello-spring.hello-spring.main" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-thymeleaf:2.4.3" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-web:2.4.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-jdbc:2.4.3" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-test:2.4.3" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter:2.4.3" level="project" />
     <orderEntry type="library" name="Gradle: org.thymeleaf:thymeleaf-spring5:3.0.12.RELEASE" level="project" />
@@ -19,6 +20,8 @@
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-tomcat:2.4.3" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-webmvc:5.3.4" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-web:5.3.4" level="project" />
+    <orderEntry type="library" name="Gradle: com.zaxxer:HikariCP:3.4.5" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-jdbc:5.3.4" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-test-autoconfigure:2.4.3" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-test:2.4.3" level="project" />
     <orderEntry type="library" name="Gradle: com.jayway.jsonpath:json-path:2.4.0" level="project" />
@@ -50,6 +53,7 @@
     <orderEntry type="library" name="Gradle: org.springframework:spring-aop:5.3.4" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-beans:5.3.4" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-expression:5.3.4" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-tx:5.3.4" level="project" />
     <orderEntry type="library" name="Gradle: net.minidev:json-smart:2.3" level="project" />
     <orderEntry type="library" name="Gradle: jakarta.activation:jakarta.activation-api:1.2.2" level="project" />
     <orderEntry type="library" name="Gradle: org.junit.jupiter:junit-jupiter-params:5.7.1" level="project" />
@@ -73,7 +77,9 @@
     <orderEntry type="library" name="Gradle: ch.qos.logback:logback-core:1.2.3" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.logging.log4j:log4j-api:2.13.3" level="project" />
     <orderEntry type="library" name="Gradle: org.ow2.asm:asm:5.0.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.h2database:h2:1.4.200" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.junit.jupiter:junit-jupiter-engine:5.7.1" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.junit.platform:junit-platform-engine:1.7.1" level="project" />
   </component>
+  <component name="TestModuleProperties" production-module="hello-spring.main" />
 </module>
