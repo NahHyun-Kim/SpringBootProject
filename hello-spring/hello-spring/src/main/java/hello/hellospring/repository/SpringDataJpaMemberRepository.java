@@ -9,6 +9,7 @@ import java.util.Optional;
 //spring data jpa가 구현체를 자동으로 만들어 등록
 public interface SpringDataJpaMemberRepository<findByName> extends JpaRepository<Member, Long>, MemberRepository {
 
+    //JPQL select m from Member m where m.name = ?
     @Override
     Optional<Member> findByName(String name);
 
